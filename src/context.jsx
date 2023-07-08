@@ -7,7 +7,7 @@ const AppProvider = ({ children }) => {
     const [isLoading, setIsLoading] = useState(true);
     const [isError, setIsError] = useState({ show: false, msg: "Movie name is required" });
     const [movie, setMovie] = useState([]);
-    const [query, setQuery] = useState("Kerala");
+    const [query, setQuery] = useState("Hacker");
 
     const getMovies = async (url) => {
         try {
